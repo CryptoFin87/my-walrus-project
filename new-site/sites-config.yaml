@@ -1,0 +1,6 @@
+rpc_url: https://fullnode.testnet.sui.io:443
+wallet: C:\Users\vobje\sui_wallet\new_wallet.json
+walrus_binary: C:\ProgramData\chocolatey\bin\walrus-node.exe
+walrus_config: C:\Users\vobje\Documents\Walrussite\walrus-config\walrus-node.yaml
+gas_budget: 1000000
+

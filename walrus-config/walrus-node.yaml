@@ -1,0 +1,22 @@
+storage_path: C:/walrus-config/db
+metrics_address: 127.0.0.1:9184
+rest_api_address: 0.0.0.0:9185
+sui: 
+  rpc: https://fullnode.testnet.sui.io:443
+  system_object: 0xWALRUS_CONTRACT
+blob_recovery: 
+  max_concurrent_blob_syncs: 10
+  retry_interval_min_secs: 1
+  retry_interval_max_secs: 3600
+  metadata_request_timeout_secs: 5
+  max_concurrent_metadata_requests: 1
+  sliver_request_timeout_secs: 300
+  invalidity_sync_timeout_secs: 300
+
+
+
+
+
+
+
+

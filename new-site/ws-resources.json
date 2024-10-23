@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "/index.html": {
+      "Content-Type": "text/html; charset=utf-8",
+      "Cache-Control": "max-age=3500"
+    }
+  },
+  "routes": {
+    "/*": "/index.html",
+    "/accounts/*": "/accounts.html",
+    "/path/assets/*": "/assets/asset_router.html"
+  }
+}

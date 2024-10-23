@@ -1,0 +1,5 @@
+rpc-url: "https://fullnode.testnet.sui.io:443"
+wallet: "C:\\Users\\vobje\\.sui\\sui_config\\client.yaml"
+walrus-binary: "walrus"
+walrus-config: "C:\\Users\\vobje\\.config\\walrus\\client_config.yaml"
+gas-budget: 100000000
