@@ -21,7 +21,7 @@ jobs:
         run: npm install
 
       - name: Build React app
-        run: npm run build
+        run: npm run build --openssl-legacy-provider
 
       - name: Deploy site to Walrus
         uses: zktx-io/walrus-sites-ga@v0.2.6
@@ -33,3 +33,4 @@ jobs:
         env:
           SUI_ADDRESS: ${{ vars.SUI_ADDRESS }}
           SUI_KEYSTORE: ${{ secrets.SUI_KEYSTORE }}
+
